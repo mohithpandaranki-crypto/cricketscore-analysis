@@ -1,40 +1,65 @@
-Cricket Score Analysis
-A beginner-friendly, console-based cricket scoreboard simulation developed using C++ and Object-Oriented Programming (OOP).
+# 🏏 Cricket Score Analysis
 
-The application simulates a cricket innings ball by ball and updates the scoreboard as runs, wickets, and extras are entered.
+A beginner-friendly, console-based cricket scoreboard simulation built using **C++ and Object-Oriented Programming (OOP)**.
 
-Features
-Enter team names and player names
-Set the number of overs
-Record dot balls, runs, wickets, wides, and no-balls
-Update batter statistics, including runs, balls faced, fours, and sixes
-Track bowler overs, runs conceded, and wickets
-Display the scoreboard after each ball
-Technologies Used
-C++
-Standard C++ library
-OOP Concepts Used
-Classes and Objects — Batsman, Bowler, Team, and Match
-Encapsulation — organizing data and related functions inside classes
-Constructors — initializing objects
-Member Functions — managing scoring and displaying statistics
-How to Run
-Compile the source file using a C++ compiler:
+Simulate a cricket innings ball by ball and watch the scoreboard update as runs, wickets, and extras are recorded.
 
+## ✨ Features
+
+- 🏟️ Enter team names and player names
+- ⏱️ Set the number of overs
+- 🏏 Record dot balls, runs, and wickets
+- ➕ Track wides and no-balls
+- 📊 Update batter statistics: runs, balls faced, fours, and sixes
+- 🎯 Track bowler figures: overs, runs conceded, and wickets
+- 🖥️ Display the scoreboard after every ball
+
+## 🛠️ Technologies Used
+
+- **Language:** C++
+- **Library:** Standard C++ Library
+- **Concepts:** Object-Oriented Programming
+
+## 📚 OOP Concepts Used
+
+| Concept | Application |
+|---|---|
+| Classes and Objects | `Batsman`, `Bowler`, `Team`, and `Match` |
+| Encapsulation | Organizing data and functions inside classes |
+| Constructors | Initializing objects |
+| Member Functions | Managing scoring and displaying statistics |
+
+## 🚀 How to Run
+
+### 1. Compile
+
+```bash
 g++ code.cpp -o scoreboard
-Run the program:
+```
 
+### 2. Run
+
+**Linux / macOS**
+```bash
 ./scoreboard
-On Windows:
+```
 
+**Windows**
+```bash
 scoreboard.exe
-Sample Output
-alt text
+```
 
-Cricket Scoreboard Output
+## 📸 Sample Output
 
-Current Limitations
-This version simulates one innings and uses one bowler. Multiple bowlers, a second innings, and a target chase can be added in future updates.
+![Cricket Scoreboard Output](screenshots/scoreboard.png)
 
-About This Project
-This project was developed as part of my Object-Oriented Programming with C++ coursework to practice C++ programming and apply OOP concepts to a practical example.
+## 🔮 Future Improvements
+
+- Support multiple bowlers
+- Add a second innings and target chase
+- Display the final match result
+- Improve strike rotation and extras handling
+
+## 👨‍💻 About
+
+This project was developed as part of my **Object-Oriented Programming with C++** coursework to practice C++ and apply OOP concepts to a practical cricket simulation.
